@@ -1,0 +1,56 @@
+$roboto-font-path:                "." !default;
+
+// Roboto Light
+@font-face
+{
+  font-family: Roboto;
+  src:url('#{$md-icons-font-path}/Roboto-Light-webfont.eot');
+  src:url('#{$md-icons-font-path}/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+      url('#{$md-icons-font-path}/Roboto-Light-webfont.woff') format('woff'),
+      url('#{$md-icons-font-path}/Roboto-Light-webfont.ttf') format('truetype'),
+      url('#{$md-icons-font-path}/Roboto-Light-webfont.svg#icon') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+// Roboto Regular
+@font-face
+{
+  font-family: Roboto;
+  src:url('#{$md-icons-font-path}/Roboto-Regular-webfont.eot');
+  src:url('#{$md-icons-font-path}/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$md-icons-font-path}/Roboto-Regular-webfont.woff') format('woff'),
+  url('#{$md-icons-font-path}/Roboto-Regular-webfont.ttf') format('truetype'),
+  url('#{$md-icons-font-path}/Roboto-Regular-webfont.svg#icon') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+// Roboto Medium
+@font-face
+{
+  font-family: Roboto;
+  src:url('#{$md-icons-font-path}/Roboto-Medium-webfont.eot');
+  src:url('#{$md-icons-font-path}/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$md-icons-font-path}/Roboto-Medium-webfont.woff') format('woff'),
+  url('#{$md-icons-font-path}/Roboto-Medium-webfont.ttf') format('truetype'),
+  url('#{$md-icons-font-path}/Roboto-Medium-webfont.svg#icon') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+// Roboto Bold
+@font-face
+{
+  font-family: Roboto;
+  src:url('#{$md-icons-font-path}/Roboto-Bold-webfont.eot');
+  src:url('#{$md-icons-font-path}/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$md-icons-font-path}/Roboto-Bold-webfont.woff') format('woff'),
+  url('#{$md-icons-font-path}/Roboto-Bold-webfont.ttf') format('truetype'),
+  url('#{$md-icons-font-path}/Roboto-Bold-webfont.svg#icon') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
